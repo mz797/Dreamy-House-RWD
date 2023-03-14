@@ -1,8 +1,12 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
+import AboutUs from "./Components/AboutUs/AboutUs";
+import Countries from "./Components/AboutUs/Countries";
 import Header from "./Components/Header/Header";
 import Navbar from "./Components/Navbar/Navbar";
 import NavbarMobile from "./Components/Navbar/NavbarMobile";
+import Projects from "./Components/Projects/Projects";
+import Services from "./Components/Services/Services";
 
 const Wrapper = styled.div`
 	width: 100%;
@@ -13,6 +17,7 @@ const Wrapper = styled.div`
 		padding: 20px;
 	}
 `;
+const Main = styled.main``;
 
 function App() {
 	const [isMobile, setIsMobile] = useState();
@@ -33,6 +38,12 @@ function App() {
 				{!isMobile && <Navbar />}
 				{isMobile && <NavbarMobile />}
 				<Header />
+				<Main>
+					<AboutUs />
+					<Countries />
+					<Services />
+					<Projects />
+				</Main>
 			</Wrapper>
 		</div>
 	);

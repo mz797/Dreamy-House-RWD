@@ -35,13 +35,27 @@ const MediaStyles = css`
 `;
 const NavLink = styled.a`
 	${MediaStyles}
+	position:relative;
 	display: inline-block;
 	padding: 10px 20px;
 	text-decoration: none;
 	color: #fff;
 	transition: transform 0.3s;
-	&:hover {
-		transform: scale(1.05);
+	&::after {
+		content: "";
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 2px;
+		background-color: #fff;
+		transform-origin: right;
+		transform: scaleX(0);
+		transition: transform 0.3s;
+	}
+	&:hover::after {
+		transform-origin: left;
+		transform: scaleX(1);
 	}
 `;
 
@@ -58,8 +72,6 @@ const NavButton = styled.button`
 		background-color: #fff;
 		color: var(--primary-color);
 		box-shadow: 0px 0px 28px rgba(0, 0, 0, 0.4);
-
-		/* font-weight: bold; */
 	}
 `;
 
@@ -68,10 +80,10 @@ const Navbar = () => {
 		<Nav>
 			<Logo icon={faSwatchbook} />
 			<NavLinks>
-				<NavLink href="#Home">Home</NavLink>
-				<NavLink href="#Services">Services</NavLink>
-				<NavLink href="#Projects">Projects</NavLink>
-				<NavLink href="#Contact">Contact</NavLink>
+				<NavLink href="#about">About Us</NavLink>
+				<NavLink href="#services">Services</NavLink>
+				<NavLink href="#projects">Projects</NavLink>
+				<NavLink href="#contact">Contact</NavLink>
 			</NavLinks>
 			<NavButton>Register</NavButton>
 		</Nav>
