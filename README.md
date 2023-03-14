@@ -1,4 +1,4 @@
-# Responsive web applicatin
+# Responsive web application
 
 
 ## React with Styled Components
