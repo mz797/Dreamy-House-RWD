@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import ProjectItem from "./ProjectItem";
 
 const Container = styled.section`
 	padding: 40px 0;
@@ -19,11 +20,18 @@ const Heading = styled.h2`
 		font-size: 46px;
 	}
 `;
-const Buttons = styled.div``;
+const Buttons = styled.div`
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+`;
 const Button = styled.button`
+	margin: 5px;
 	padding: 7px 14px;
-    border-radius:20px;
-	border: 2px solid var(--primary-color);
+	background: none;
+	border-radius: 20px;
+	border: 1px solid var(--primary-color);
+	cursor: pointer;
 `;
 const Projects = () => {
 	return (
@@ -36,6 +44,7 @@ const Projects = () => {
 				<Button>Bathroom Interior</Button>
 				<Button>Kitchen Interior</Button>
 			</Buttons>
+			<ProjectItem />
 		</Container>
 	);
 };
