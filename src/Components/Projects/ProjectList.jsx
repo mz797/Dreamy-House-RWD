@@ -1,5 +1,7 @@
 import React from "react";
 import styled from "styled-components";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import project2 from "../../Images/project2.jpg";
 import project1 from "../../Images/project1.jpg";
 import project3 from "../../Images/project3.jpg";
@@ -26,8 +28,9 @@ const Item = styled.div`
 	background-image: url(${(props) => props.img});
 	background-size: cover;
 	background-position: center;
+	z-index: 0;
 `;
-const ItemHover = styled.a`
+const ItemHover = styled.div`
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -45,41 +48,81 @@ const ItemHover = styled.a`
 	}
 `;
 const ItemHoverTitle = styled.p`
-	color: #fff;
+	color: rgba(255, 255, 255, 0.6);
 	font-size: 32px;
 	font-weight: 700;
 `;
-const ItemHoverText = styled.p`
+
+const ItemHoverIcon = styled.button`
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 50px;
+	height: 50px;
+	border: none;
+	background-color: var(--secondary-color);
 	color: #fff;
 	font-size: 24px;
+	z-index: 50;
+	cursor: pointer;
 `;
 
-const ProjectItem = () => {
+const ProjectList = () => {
 	return (
 		<Container>
 			<Item img={project1}>
 				<ItemHover>
 					<ItemHoverTitle>2023</ItemHoverTitle>
-					<ItemHoverText>Contact Us</ItemHoverText>
+					<ItemHoverIcon>
+						<FontAwesomeIcon icon={faArrowRight} />
+					</ItemHoverIcon>
 				</ItemHover>
 			</Item>
 			<Item img={project2}>
-				<ItemHover></ItemHover>
+				<ItemHover>
+					<ItemHoverTitle>2023</ItemHoverTitle>
+					<ItemHoverIcon>
+						<FontAwesomeIcon icon={faArrowRight} />
+					</ItemHoverIcon>
+				</ItemHover>
 			</Item>
 			<Item img={project3}>
-				<ItemHover></ItemHover>
+				<ItemHover>
+					<ItemHoverTitle>2022</ItemHoverTitle>
+					<ItemHoverIcon>
+						<FontAwesomeIcon icon={faArrowRight} />
+					</ItemHoverIcon>
+				</ItemHover>
 			</Item>
 			<Item img={project4}>
-				<ItemHover></ItemHover>
+				<ItemHover>
+					<ItemHoverTitle>2023</ItemHoverTitle>
+					<ItemHoverIcon>
+						<FontAwesomeIcon icon={faArrowRight} />
+					</ItemHoverIcon>
+				</ItemHover>
 			</Item>
 			<Item img={project5}>
-				<ItemHover></ItemHover>
+				<ItemHover>
+					<ItemHoverTitle>2022</ItemHoverTitle>
+					<ItemHoverIcon>
+						<FontAwesomeIcon icon={faArrowRight} />
+					</ItemHoverIcon>
+				</ItemHover>
 			</Item>
 			<Item img={project6}>
-				<ItemHover></ItemHover>
+				<ItemHover>
+					<ItemHoverTitle>2023</ItemHoverTitle>
+					<ItemHoverIcon>
+						<FontAwesomeIcon icon={faArrowRight} />
+					</ItemHoverIcon>
+				</ItemHover>
 			</Item>
 		</Container>
 	);
 };
 
-export default ProjectItem;
+export default ProjectList;

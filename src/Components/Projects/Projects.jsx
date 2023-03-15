@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import ProjectItem from "./ProjectItem";
+import ProjectList from "./ProjectList";
 
 const Container = styled.section`
 	padding: 40px 0;
@@ -15,9 +15,11 @@ const Heading = styled.h2`
 	}
 	@media (min-width: 786px) {
 		font-size: 42px;
+		margin-bottom: 40px;
 	}
 	@media (min-width: 992px) {
 		font-size: 46px;
+		margin-bottom: 50px;
 	}
 `;
 const Buttons = styled.div`
@@ -32,6 +34,22 @@ const Button = styled.button`
 	border-radius: 20px;
 	border: 1px solid var(--primary-color);
 	cursor: pointer;
+	transition: color 0.3s, background 0.3s;
+	&:hover,
+	&:focus {
+		outline: none;
+		color: #fff;
+		background-color: var(--primary-color);
+	}
+	@media (min-width: 576px) {
+		font-size: 15px;
+	}
+	@media (min-width: 786px) {
+		font-size: 16px;
+	}
+	@media (min-width: 992px) {
+		font-size: 18px;
+	}
 `;
 const Projects = () => {
 	return (
@@ -44,7 +62,7 @@ const Projects = () => {
 				<Button>Bathroom Interior</Button>
 				<Button>Kitchen Interior</Button>
 			</Buttons>
-			<ProjectItem />
+			<ProjectList />
 		</Container>
 	);
 };

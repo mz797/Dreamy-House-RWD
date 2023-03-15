@@ -15,12 +15,15 @@ const Heading = styled.h2`
 	text-align: center;
 	@media (min-width: 576px) {
 		font-size: 40px;
+		margin-bottom: 40px;
 	}
 	@media (min-width: 786px) {
 		font-size: 42px;
+		margin-bottom: 50px;
 	}
 	@media (min-width: 992px) {
 		font-size: 46px;
+		margin-bottom: 60px;
 	}
 `;
 

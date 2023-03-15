@@ -11,13 +11,17 @@ const Container = styled.section`
 	padding: 40px 0 120px;
 `;
 const About = styled.div`
-	@media (min-width: 786px) {
+	@media (min-width: 768px) {
 		display: flex;
 		align-items: center;
+		padding: 20px 0;
+	}
+	@media (min-width: 992px) {
+		padding: 40px 0;
 	}
 `;
 const AboutText = styled.div`
-	@media (min-width: 786px) {
+	@media (min-width: 768px) {
 		padding: 15px 30px 30px 50px;
 		width: 60%;
 	}
@@ -30,7 +34,7 @@ const Heading = styled.h2`
 	@media (min-width: 576px) {
 		font-size: 40px;
 	}
-	@media (min-width: 786px) {
+	@media (min-width: 768px) {
 		font-size: 42px;
 		text-align: left;
 	}
@@ -46,7 +50,7 @@ const Description = styled.p`
 	@media (min-width: 576px) {
 		font-size: 18px;
 	}
-	@media (min-width: 786px) {
+	@media (min-width: 768px) {
 		font-size: 20px;
 	}
 	@media (min-width: 992px) {
@@ -58,9 +62,10 @@ const InfoContainer = styled.div`
 	justify-content: center;
 	flex-wrap: wrap;
 	margin-bottom: 40px;
-	@media (min-width: 786px) {
+	@media (min-width: 768px) {
 		width: 40%;
 	}
+	
 `;
 const ParamBox = styled.div`
 	display: flex;
@@ -138,7 +143,6 @@ const AboutUs = () => {
 					</ParamBoxText>
 				</ParamBoxContent>
 			</ParamBox>
-			
 		</Container>
 	);
 };
