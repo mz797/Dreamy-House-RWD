@@ -20,8 +20,8 @@ const Container = styled.section`
 	border-top-right-radius: 10px;
 	background-color: var(--primary-color);
 	color: #fff;
-	max-width: 1200px;
-	margin: 0 auto;
+	/* max-width: 1200px;
+	margin: 0 auto; */
 `;
 const Icons = styled.div`
 	display: none;

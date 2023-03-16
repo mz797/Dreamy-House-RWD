@@ -28,14 +28,18 @@ const BackgroundShadow = styled.div`
 	background-color: var(--primary-color);
 	opacity: 0.7;
 `;
-const TextContainer = styled.div`
+const Wrapper = styled.div`
 	${CommonStyles}
-	display:flex;
+`;
+const TextContainer = styled.div`
+	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	padding: 40px;
-	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	height: 100%;
 	color: #fff;
 	@media (min-width: 768px) {
 		flex-direction: row;
@@ -108,17 +112,19 @@ const Header = () => {
 	return (
 		<Container>
 			<BackgroundShadow />
-			<TextContainer>
-				<Heading>Easiest way to find your best dream place</Heading>
-				<DescriptionContainer>
-					<Description>
-						A trusted partner in the world of real estate. Our team
-						of expirienced professionals dedicated to helping you
-						unloke dor to your dream house.
-					</Description>
-					<Button>Discover Now</Button>
-				</DescriptionContainer>
-			</TextContainer>
+			<Wrapper>
+				<TextContainer>
+					<Heading>Easiest way to find your best dream place</Heading>
+					<DescriptionContainer>
+						<Description>
+							A trusted partner in the world of real estate. Our
+							team of expirienced professionals dedicated to
+							helping you unloke dor to your dream house.
+						</Description>
+						<Button>Discover Now</Button>
+					</DescriptionContainer>
+				</TextContainer>
+			</Wrapper>
 		</Container>
 	);
 };

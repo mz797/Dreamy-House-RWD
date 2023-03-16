@@ -3,14 +3,17 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSwatchbook } from "@fortawesome/free-solid-svg-icons";
 import styled, { css } from "styled-components";
 
+const Wrapper = styled.div`
+	width: 100%;
+	background-color: var(--primary-color);
+`;
 const Nav = styled.nav`
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	width: 100%;
+	margin: 0 auto;
+	max-width: 1200px;
 	padding: 5px 20px;
-	background-color: var(--primary-color);
-	border-radius: 10px;
 	color: #fff;
 	overflow: hidden;
 `;
@@ -77,16 +80,18 @@ const NavButton = styled.button`
 
 const Navbar = () => {
 	return (
-		<Nav>
-			<Logo icon={faSwatchbook} />
-			<NavLinks>
-				<NavLink href="#about">About Us</NavLink>
-				<NavLink href="#services">Services</NavLink>
-				<NavLink href="#projects">Projects</NavLink>
-				<NavLink href="#contact">Contact</NavLink>
-			</NavLinks>
-			<NavButton>Register</NavButton>
-		</Nav>
+		<Wrapper>
+			<Nav>
+				<Logo icon={faSwatchbook} />
+				<NavLinks>
+					<NavLink href="#about">About Us</NavLink>
+					<NavLink href="#services">Services</NavLink>
+					<NavLink href="#projects">Projects</NavLink>
+					<NavLink href="#contact">Contact</NavLink>
+				</NavLinks>
+				<NavButton>Register</NavButton>
+			</Nav>
+		</Wrapper>
 	);
 };
 

@@ -35,11 +35,9 @@ function App() {
 	window.addEventListener("resize", handleResize);
 	return (
 		<div className="App">
-			<Wrapper>
-				{!isMobile && <Navbar />}
-				{isMobile && <NavbarMobile />}
-				<Header />
-			</Wrapper>
+			{!isMobile && <Navbar />}
+			{isMobile && <NavbarMobile />}
+			<Header />
 			<Main>
 				<Wrapper>
 					<AboutUs />
