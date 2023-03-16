@@ -7,6 +7,7 @@ const Container = styled.header`
 	position: relative;
 	margin: 10px 0;
 	height: 85vh;
+	min-height: 400px;
 	width: 100%;
 	background-image: url(${headerSmall});
 	background-size: cover;
@@ -14,9 +15,6 @@ const Container = styled.header`
 	overflow: hidden;
 	@media (min-width: 992px) {
 		background-image: url(${headerBig});
-	}
-	@media (max-height: 400px) {
-		height: 100vh;
 	}
 `;
 const CommonStyles = css`
