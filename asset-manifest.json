@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/RWD-with-Styled-Components/static/css/main.d81a0df5.css",
-    "main.js": "/RWD-with-Styled-Components/static/js/main.1a19dba2.js",
+    "main.js": "/RWD-with-Styled-Components/static/js/main.062d029c.js",
     "static/media/header-big.jpg": "/RWD-with-Styled-Components/static/media/header-big.2e332cb1d97eb0ccc90b.jpg",
     "static/media/Service1.jpg": "/RWD-with-Styled-Components/static/media/Service1.8e6a8dd1423737937097.jpg",
     "static/media/project6.jpg": "/RWD-with-Styled-Components/static/media/project6.7a0ae6b8c438efb40ed1.jpg",
@@ -19,10 +19,10 @@
     "static/media/german.jfif": "/RWD-with-Styled-Components/static/media/german.62313bdc039ec748c78d.jfif",
     "index.html": "/RWD-with-Styled-Components/index.html",
     "main.d81a0df5.css.map": "/RWD-with-Styled-Components/static/css/main.d81a0df5.css.map",
-    "main.1a19dba2.js.map": "/RWD-with-Styled-Components/static/js/main.1a19dba2.js.map"
+    "main.062d029c.js.map": "/RWD-with-Styled-Components/static/js/main.062d029c.js.map"
   },
   "entrypoints": [
     "static/css/main.d81a0df5.css",
-    "static/js/main.1a19dba2.js"
+    "static/js/main.062d029c.js"
   ]
 }
