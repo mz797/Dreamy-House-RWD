@@ -17,7 +17,7 @@ const Container = styled.header`
 	}
 	@media (max-height: 400px) {
 		height: 100vh;
-	}guit 
+	}
 `;
 const CommonStyles = css`
 	position: absolute;
