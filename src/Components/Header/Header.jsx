@@ -15,6 +15,9 @@ const Container = styled.header`
 	@media (min-width: 992px) {
 		background-image: url(${headerBig});
 	}
+	@media (max-height: 400px) {
+		height: 100vh;
+	}
 `;
 const CommonStyles = css`
 	position: absolute;
