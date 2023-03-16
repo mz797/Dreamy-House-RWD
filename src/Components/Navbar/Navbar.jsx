@@ -5,6 +5,8 @@ import styled, { css } from "styled-components";
 
 const Wrapper = styled.div`
 	width: 100%;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
 	background-color: var(--primary-color);
 `;
 const Nav = styled.nav`

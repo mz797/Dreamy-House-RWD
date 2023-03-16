@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
 	faSwatchbook,
 	faBars,
-	faXmark,
+	// faXmark,
 } from "@fortawesome/free-solid-svg-icons";
 import styled from "styled-components";
 
@@ -14,7 +14,8 @@ const Nav = styled.nav`
 	width: 100%;
 	padding: 5px 20px;
 	background-color: var(--primary-color);
-	border-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
 	color: #fff;
 	font-size: 18px;
 `;
