@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/RWD-with-Styled-Components/static/css/main.d81a0df5.css",
-    "main.js": "/RWD-with-Styled-Components/static/js/main.062d029c.js",
-    "static/media/header-big.jpg": "/RWD-with-Styled-Components/static/media/header-big.2e332cb1d97eb0ccc90b.jpg",
-    "static/media/Service1.jpg": "/RWD-with-Styled-Components/static/media/Service1.8e6a8dd1423737937097.jpg",
-    "static/media/project6.jpg": "/RWD-with-Styled-Components/static/media/project6.7a0ae6b8c438efb40ed1.jpg",
-    "static/media/Service2.jpg": "/RWD-with-Styled-Components/static/media/Service2.4482d9911ab8eba3c113.jpg",
-    "static/media/project3.jpg": "/RWD-with-Styled-Components/static/media/project3.cb2e85cb0d1c52757f9a.jpg",
-    "static/media/project1.jpg": "/RWD-with-Styled-Components/static/media/project1.7886ff51877430edba8e.jpg",
-    "static/media/header-small.jpg": "/RWD-with-Styled-Components/static/media/header-small.10c313f8fbe8ba17d32a.jpg",
-    "static/media/project4.jpg": "/RWD-with-Styled-Components/static/media/project4.4dee53e961f638345736.jpg",
-    "static/media/project2.jpg": "/RWD-with-Styled-Components/static/media/project2.78cfae7345913b8d592f.jpg",
-    "static/media/meet.jpg": "/RWD-with-Styled-Components/static/media/meet.89f444f66b121f56b8ad.jpg",
-    "static/media/project5.jpg": "/RWD-with-Styled-Components/static/media/project5.9f14d5b5c0aa4ea7aa62.jpg",
-    "static/media/Service3.jpg": "/RWD-with-Styled-Components/static/media/Service3.83379fe464a8002e0c20.jpg",
-    "static/media/pl.png": "/RWD-with-Styled-Components/static/media/pl.7b5e5a41e3ca9acfd837.png",
-    "static/media/italy.png": "/RWD-with-Styled-Components/static/media/italy.c25869c170346afb10e4.png",
-    "static/media/german.jfif": "/RWD-with-Styled-Components/static/media/german.62313bdc039ec748c78d.jfif",
-    "index.html": "/RWD-with-Styled-Components/index.html",
-    "main.d81a0df5.css.map": "/RWD-with-Styled-Components/static/css/main.d81a0df5.css.map",
-    "main.062d029c.js.map": "/RWD-with-Styled-Components/static/js/main.062d029c.js.map"
+    "main.css": "/Dreamy-House-RWD/static/css/main.d81a0df5.css",
+    "main.js": "/Dreamy-House-RWD/static/js/main.48b43c04.js",
+    "static/media/header-big.jpg": "/Dreamy-House-RWD/static/media/header-big.2e332cb1d97eb0ccc90b.jpg",
+    "static/media/Service1.jpg": "/Dreamy-House-RWD/static/media/Service1.8e6a8dd1423737937097.jpg",
+    "static/media/project6.jpg": "/Dreamy-House-RWD/static/media/project6.7a0ae6b8c438efb40ed1.jpg",
+    "static/media/Service2.jpg": "/Dreamy-House-RWD/static/media/Service2.4482d9911ab8eba3c113.jpg",
+    "static/media/project3.jpg": "/Dreamy-House-RWD/static/media/project3.cb2e85cb0d1c52757f9a.jpg",
+    "static/media/project1.jpg": "/Dreamy-House-RWD/static/media/project1.7886ff51877430edba8e.jpg",
+    "static/media/header-small.jpg": "/Dreamy-House-RWD/static/media/header-small.10c313f8fbe8ba17d32a.jpg",
+    "static/media/project4.jpg": "/Dreamy-House-RWD/static/media/project4.4dee53e961f638345736.jpg",
+    "static/media/project2.jpg": "/Dreamy-House-RWD/static/media/project2.78cfae7345913b8d592f.jpg",
+    "static/media/meet.jpg": "/Dreamy-House-RWD/static/media/meet.89f444f66b121f56b8ad.jpg",
+    "static/media/project5.jpg": "/Dreamy-House-RWD/static/media/project5.9f14d5b5c0aa4ea7aa62.jpg",
+    "static/media/Service3.jpg": "/Dreamy-House-RWD/static/media/Service3.83379fe464a8002e0c20.jpg",
+    "static/media/pl.png": "/Dreamy-House-RWD/static/media/pl.7b5e5a41e3ca9acfd837.png",
+    "static/media/italy.png": "/Dreamy-House-RWD/static/media/italy.c25869c170346afb10e4.png",
+    "static/media/german.jfif": "/Dreamy-House-RWD/static/media/german.62313bdc039ec748c78d.jfif",
+    "index.html": "/Dreamy-House-RWD/index.html",
+    "main.d81a0df5.css.map": "/Dreamy-House-RWD/static/css/main.d81a0df5.css.map",
+    "main.48b43c04.js.map": "/Dreamy-House-RWD/static/js/main.48b43c04.js.map"
   },
   "entrypoints": [
     "static/css/main.d81a0df5.css",
-    "static/js/main.062d029c.js"
+    "static/js/main.48b43c04.js"
   ]
 }
